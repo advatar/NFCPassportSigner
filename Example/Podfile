@@ -11,7 +11,7 @@ target 'NFCPassportReaderApp' do
   use_frameworks!
 
   # Pods for NFCPassportReaderApp
-  pod 'NFCPassportReader', :path => '../'
+  pod 'NFCPassportSigner', :path => '../'
 
   target 'NFCPassportReaderAppTests' do
     inherit! :search_paths
